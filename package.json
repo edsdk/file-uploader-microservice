@@ -1,0 +1,33 @@
+{
+  "name": "@edsdk/file-uploader-microservice",
+  "version": "1.0.5",
+  "description": "Microservice which handles file uploads with using File uploader SDK and Express.",
+  "main": "./dist/file-uploader-microservice.js",
+  "types": "./dist/file-uploader-microservice.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build"
+  },
+  "author": "https://imageeditorsdk.com/",
+  "license": "Commercial EdSDK license",
+  "dependencies": {
+    "@edsdk/file-uploader-server": "^1.0.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  },
+  "keywords": [
+    "file",
+    "uploader",
+    "image",
+    "photo",
+    "express",
+    "server",
+    "microservice",
+    "imgpen"
+  ]
+}
