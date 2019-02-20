@@ -8,7 +8,7 @@
     "build": "webpack",
     "prepublish": "npm run build"
   },
-  "author": "https://imageeditorsdk.com/",
+  "author": "https://imgpen.com/",
   "license": "Commercial EdSDK license",
   "dependencies": {
     "@edsdk/file-uploader-server": "^1.0.3",
