@@ -1,12 +1,10 @@
 {
   "name": "@edsdk/file-uploader-microservice",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Microservice which handles file uploads with using File uploader SDK and Express.",
   "main": "./dist/file-uploader-microservice.js",
   "types": "./dist/file-uploader-microservice.d.ts",
   "scripts": {
-    "build": "webpack",
-    "prepublish": "npm run build"
   },
   "author": "https://imgpen.com/",
   "license": "Commercial EdSDK license",
